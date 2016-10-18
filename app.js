@@ -75,6 +75,6 @@ app.get('/delete/:_id', function (req, res) {
     });
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT, function () {
     console.log('server running at port ' + process.env.PORT);
 });
