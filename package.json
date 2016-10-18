@@ -1,0 +1,25 @@
+{
+  "name": "drifter",
+  "version": "1.0.0",
+  "description": "a drifter app powred by node.js and redis",
+  "main": "app.j",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drifter",
+    "node.j",
+    "redis"
+  ],
+  "author": "AnthonyYY",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3",
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "request": "^2.75.0"
+  }
+}
