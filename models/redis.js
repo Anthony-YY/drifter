@@ -2,9 +2,9 @@
  * Created by Anthony-YY on 2016/10/13.
  */
 var redis = require('redis'),
-    client = redis.createClient(50,3170,{auth_pass:'9694d5e0e49ff573e3e60f64a7054183'}),
-    client2= redis.createClient(50,3170,{auth_pass:'9694d5e0e49ff573e3e60f64a7054183'}),
-    client3 = redis.createClient(50,3170,{auth_pass:'9694d5e0e49ff573e3e60f64a7054183'});
+    client = redis.createClient('3170','50.30.35.9',{auth_pass:'9694d5e0e49ff573e3e60f64a7054183'}),
+    client2= redis.createClient('3170','50.30.35.9',{auth_pass:'9694d5e0e49ff573e3e60f64a7054183'}),
+    client3 = redis.createClient('3170','50.30.35.9',{auth_pass:'9694d5e0e49ff573e3e60f64a7054183'});
 
 exports.throw = function(bottle, callback){
 

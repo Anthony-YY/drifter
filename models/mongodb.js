@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('ds057176.mlab.com:57176/drifter -u anthony -p 2332TTgmn');
+mongoose.connect('mongodb://anthony:2332TTgmn@ds057176.mlab.com:57176/drifter');
 
 var bottleModel = mongoose.model('Bottle',mongoose.Schema({
     bottle: Array,
