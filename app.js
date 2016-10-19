@@ -6,6 +6,7 @@ var redis = require('./models/redis');
 var bodyParser = require('body-parser');
 var mongodb = require('./models/mongodb.js');
 var app = express();
+var port = process.env.PORT || 3000;
 
 app.use(bodyParser());
 
@@ -75,6 +76,6 @@ app.get('/delete/:_id', function (req, res) {
     });
 });
 
-app.listen(process.env.PORT, function () {
-    console.log('server running at port ' + process.env.PORT);
+app.listen(port, function () {
+    console.log('server running at port ' + port);
 });
